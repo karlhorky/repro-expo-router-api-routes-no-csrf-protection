@@ -1,0 +1,33 @@
+{
+  "name": "repro-expo-router-api-routes-no-csrf-protection",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "packageManager": "pnpm@12.6.0",
+  "scripts": {
+    "dev": "expo start --port 8104",
+    "build": "expo export --platform web",
+    "start": "expo serve --port 8104",
+    "attacker-site": "node attacker-site.mts",
+    "check-csrf": "node check-csrf.mts"
+  },
+  "dependencies": {
+    "expo": "58.0.21",
+    "expo-constants": "58.0.14",
+    "expo-linking": "58.0.15",
+    "expo-router": "58.0.28",
+    "expo-server": "58.0.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "5.11.0",
+    "react-native-screens": "4.30.1",
+    "react-native-web": "0.21.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "^24.19.2",
+    "@types/react": "19.3.0",
+    "typescript": "6.0.3"
+  }
+}

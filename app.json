@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "repro-expo-router-api-routes-no-csrf-protection",
+    "slug": "repro-expo-router-api-routes-no-csrf-protection",
+    "web": {
+      "output": "server"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
