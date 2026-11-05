@@ -35,7 +35,7 @@ Browser: 156.0.8078.80
 {"case":"login","sameSite":"Lax","crossSiteStatus":200,"userBefore":"victim","userAfter":"attacker"}
 ```
 
-Observed on Expo SDK 58 (`expo@58.0.21`, `expo-router@58.0.28`) with both `expo start` and `expo export` + `expo serve`.
+Observed on Expo SDK 58 (`expo@58.0.23`, `expo-router@58.0.30`) with both `expo start` and `expo export` + `expo serve`.
 
 ## 1. Acting as the logged-in visitor (`SameSite=None` session cookie)
 
